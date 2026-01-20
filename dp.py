@@ -6,6 +6,7 @@ st.title("📢 PragyanAI – Content Generator")
 
 client = Groq(api_key=st.secrets["GROQ"]["GROQ_API_KEY"])
 
+
 col1, col2 = st.columns(2)
 
 with col1:
@@ -32,4 +33,3 @@ with col2:
         )
     else:
         st.info("Generate content first")
-syz-cdiw-tam
